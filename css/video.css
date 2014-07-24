@@ -1,0 +1,163 @@
+#video-chat {
+	width: 100%;
+  height: 100%;
+}
+
+/* navbar */
+.navbar-items {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.navbar-items > li {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.navbar-items li > a {
+  color: inherit;
+  padding: 3px 10px;
+  margin: 0;
+}
+.navbar-items .menu-icon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.navbar-items .btn {
+    margin: 1px 0px;
+    padding: 5px 10px;
+}
+.navbar-items .btn .btn-label {
+    margin-left: 5px;
+}
+.navbar #navbar-menu-btn {
+  margin: 0;
+}
+.navbar .header-title {
+  color: #777;
+  margin: 5px 10px;
+  display: inline-block;
+  font-size: 18px;
+}
+/* ./navbar */
+
+/* confirm modal dialog */
+#connect-confirm-modal .modal-dialog, #confirm-modal .modal-dialog {
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;  
+}
+/* ./confirm modal dialog */
+
+.right-icon { 
+  float: right;
+}
+
+.btn-dark {
+  background-color: #e0e0e0;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #3c763d;
+  border-color: #356936;
+}
+.pull-right {
+  text-align: right;
+}
+
+#navbar-menu-btn {
+  font-size: 18px;
+  padding: 0px 12px;
+  color: #777;  
+  height: 30px;
+}
+
+#top-navbar {
+  min-height: 40px;
+  margin-bottom: 0;
+}
+
+#top-navbar .navbar-items {
+  margin-bottom: 0;
+}
+
+#top-navbar #navbar-menu-btn {
+  font-size: 20px;
+  color: #777;
+  height: 30px;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 40px;
+  padding: 0;
+}
+
+#top-navbar #navbar-menu-btn > span {
+  width: 16px;
+  display: inline-block;
+  margin: 0 auto;
+}
+#top-navbar #menu-list {
+  top: 28px;
+  left: 5px;
+  width: 200px;
+}
+
+#top-navbar {
+  background-color: #fafafa;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-right {
+  margin-top: 3px;
+  float: right;
+  margin-right: 5px;
+}
+
+/* stream view */
+#stream-view {
+  width: 100%;
+}
+
+#stream-view .stream-list {
+}
+
+#stream-view .stream-list .stream-container {
+  position: relative;
+  margin: 0;
+  float: left;
+  display: flex;
+  display: -webkit-flex;
+}
+#stream-view .stream-list .stream-container > video {
+  width: 100%;
+  height: 100%;
+}
+.stream-container .btn-group {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  display: none;
+}
+/* ./stream view */
+
+
+/* command buttons */
+#command-buttons {
+    margin-top: 4px;  
+    margin-left: 5px;
+}
+#command-buttons .btn {
+  font-size: 20px;
+  padding: 3px 8px;
+  width: 35px;
+}
+#full-screen {
+
+}
+#mute-switch {
+  
+}
+/* command buttons */

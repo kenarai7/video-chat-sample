@@ -1,0 +1,13 @@
+#broker-id-list-form {
+  width: 400px;
+  margin: 20px;
+}
+
+#broker-id-list > li {
+  padding-top: 10px;
+}
+
+.form-control {
+  display: inline-block;
+}
+
